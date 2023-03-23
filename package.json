@@ -1,0 +1,19 @@
+{
+  "name": "cosmos-xrpl-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "node": "server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/cosmwasm": "^0.25.6",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "xrpl-client": "^2.0.5"
+  }
+}
